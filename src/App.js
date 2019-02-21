@@ -133,6 +133,8 @@ class App extends Component {
             <BlockMath>{"\\vec{x} = " + inverseMatStr + vecStr + " = " +
               "\\begin{bmatrix}" + inverseStr[0] + "\\cdot " + vector[0] + "+ " + inverseStr[1] + "\\cdot " + vector[1] + " \\\\ " + inverseStr[2] + "\\cdot " + vector[0] + "+ " + inverseStr[3] + "\\cdot " + vector[1] + " \\end{bmatrix}" +
               "= \\begin{bmatrix} " + solStr[0] + " \\\\ " + solStr[1] + " \\end{bmatrix}"}</BlockMath>
+            <BlockMath>{"\\vec{x} = \\begin{bmatrix} " + solStr[0] + " \\\\ " + solStr[1] + " \\end{bmatrix}"}</BlockMath>
+            <BlockMath>{"x_1 = " + solStr[0] + "\\text{ and } x_2 = " + solStr[1]}</BlockMath>
           </div>
         </Content>
         <Footer>(C) Quantum Development - 2019</Footer>
